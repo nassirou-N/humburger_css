@@ -1,4 +1,9 @@
-
+body{
+    background: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
@@ -19,12 +24,13 @@
     transition: transform .5s, opacity .25s;
 }
 
-.hamburger.activate .line:nth-child(1){
+.hamburger.active .line:nth-child(1){
     transform: translateY(13px) rotate(45deg);
 }
-.hamburger.activate .line:nth-child(2){
+.hamburger.active .line:nth-child(2){
    opacity: 0;
 }
-.hamburger.activate .line:nth-child(1){
+.hamburger.active .line:nth-child(3){
     transform: translateY(-13px) rotate(-45deg);
 }
+active
